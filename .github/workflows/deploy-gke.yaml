@@ -83,6 +83,5 @@ jobs:
 
     #
     # Deploy to GKE
-    #
     - name: Deploy to GKE
       run: kubectl apply -f applications/clouddemo/net4/deployment.yaml
